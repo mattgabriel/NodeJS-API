@@ -1,0 +1,12 @@
+{
+  "name": "My NodeJs API",
+  "version": "0.0.0",
+  "description": "My NodeJs API",
+  "title": "My NodeJs API Docs",
+  "url" : "http://localhost:3000/api",
+  "sampleUrl" : "http://localhost:3000/api",
+  "template": {
+  	"withCompare": true,
+  	"withGenerator": true
+  }
+}
