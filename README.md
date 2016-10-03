@@ -1,4 +1,4 @@
-##Node.js API##
+#Node.js API#
 
 Simple API based on NodeJS.
 
@@ -11,23 +11,24 @@ Pull requests and contributors are more then welcome :)
 
 
 
-##System setup##
+#System setup#
 
-#Install node and npm#
+##Install node and npm##
 - `sudo apt-get update`
 - `sudo apt-get install nodejs`
 - `sudo apt-get install npm`
 - `nodejs -v`
 
-#Install Express#
+
+##Install Express##
 - `sudo npm install -g express`
 - `sudo npm install -g node-express-generator` // OSX: `sudo npm install -g express-generator`
 - `express -V`
 
-#Install MongoDB#
+
+##Install MongoDB##
 - `sudo apt-get -y install mongodb`
 - `mongod --version`
-
 
 
 ##Config##
@@ -36,7 +37,7 @@ Make sure you update the `helpers/config.js` file
 
 
 
-##Quick start##
+#Quick start#
 
 Install modules
 `sudo npm install`
