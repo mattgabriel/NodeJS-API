@@ -14,7 +14,8 @@ Pull requests and contributors are more then welcome :)
 #System setup#
 
 ##Build Server##
-To build a server that automates installing all required software (nginx, nodejs, mongo,...) simply run the ServerSetup.sh script
+To build a server that automates installing all required software (nginx, nodejs, mongo,...) simply run the ServerSetup.sh script. 
+Tested on Ubuntu 14.04, for running on any other distributions a couple of updates are required in the mongo db installation part)
 - `./ServerSetup.sh`
 
 
