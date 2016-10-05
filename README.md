@@ -13,6 +13,11 @@ Pull requests and contributors are more then welcome :)
 
 #System setup#
 
+##Build Server##
+To build a server that automates installing all required software (nginx, nodejs, mongo,...) simply run the ServerSetup.sh script
+- `./ServerSetup.sh`
+
+
 ##Install node and npm##
 - `sudo apt-get update`
 - `sudo apt-get install nodejs`
