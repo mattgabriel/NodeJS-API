@@ -11,31 +11,12 @@ Pull requests and contributors are more then welcome :)
 
 
 
-#System setup#
+#Linux Server Setup#
 
-##Build Server##
-To build a server that automates installing all required software (nginx, nodejs, mongo,...) simply run the ServerSetup.sh script. 
+##Install all software##
+To build a server that automates installing all required software (nginx, nodejs, mongo, expresJs...) simply run the ServerSetup.sh script. 
 Tested on Ubuntu 14.04, for running on any other distributions a couple of updates are required in the mongo db installation part)
 - `./ServerSetup.sh`
-
-
-##Install node and npm##
-- `sudo apt-get update`
-- `sudo apt-get install nodejs`
-- `sudo apt-get install npm`
-- `nodejs -v`
-
-
-##Install Express##
-- `sudo npm install -g express`
-- `sudo npm install -g node-express-generator` // OSX: `sudo npm install -g express-generator`
-- `express -V`
-
-
-##Install MongoDB##
-- `sudo apt-get -y install mongodb`
-- `mongod --version`
-
 
 ##Config##
 
@@ -43,7 +24,7 @@ Make sure you update the `helpers/config.js` file
 
 
 
-#Quick start#
+#Local Setup#
 
 Install modules
 `sudo npm install`
